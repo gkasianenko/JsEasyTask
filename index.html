@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTOMOBILE HOMEWORK</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="text-center">
+        <a href="http://webcademy.ru" target="_blank">
+          <img src="https://webcademy.ru/img/logo/logo.svg" alt="Логотип" class="logo" />
+        </a>
+        
+        <h1 id="top-header">JS работа с DOM</h1>
+        <h2>Изображение и атрибуты</h2>
+      
+        <div id="imgHolder" class="imgHolder">
+          <img 
+               src="https://webcademy.ru/files/js2020/solaris/black.png" class="car-item"
+               alt="Автомобиль" data-color="colorBlack"
+               />
+            <img src="https://webcademy.ru/files/js2020/solaris/blue.png" class="car-item none" alt="Голубой автомобиль" data-color="colorBlue">
+            
+            <img src="https://webcademy.ru/files/js2020/solaris/graphite.png" class="car-item none" alt="Серый автомобиль" data-color="colorGraphite">
+      
+            <img src="https://webcademy.ru/files/js2020/solaris/orange.png" class="car-item none" alt="Оранжевый автомобиль" data-color="colorOrange">
+            
+            <img src="https://webcademy.ru/files/js2020/solaris/red.png" class="car-item none" alt="Красный автомобиль" data-color="colorRed">
+            
+            <img src="https://webcademy.ru/files/js2020/solaris/white.png" class="car-item none" alt="Белый автомобиль" data-color="colorWhite">
+            
+            <img src="https://webcademy.ru/files/js2020/solaris/white-pure.png" class="car-item none" alt="Белоснежный автомобиль" data-color="colorWhitePure">
+        </div>
+      
+      
+        <!-- Другие изображения автомобиля -->
+        <!-- https://webcademy.ru/files/js2020/solaris/black.png -->
+        <!-- https://webcademy.ru/files/js2020/solaris/blue.png -->
+        <!-- https://webcademy.ru/files/js2020/solaris/graphite.png -->
+        <!-- https://webcademy.ru/files/js2020/solaris/orange.png -->
+        <!-- https://webcademy.ru/files/js2020/solaris/red.png -->
+        <!-- https://webcademy.ru/files/js2020/solaris/white.png -->
+        <!-- https://webcademy.ru/files/js2020/solaris/white-pure.png -->
+      
+        <div id="colorsSelector" class="colorsSelector">
+          <div class="colorItem colorBlue "></div>
+          <div class="colorItem colorWhite"></div>
+          <div class="colorItem colorRed"></div>
+          <div class="colorItem colorBlack colorItem--active"></div>
+          <div class="colorItem colorWhitePure"></div>
+          <div class="colorItem colorOrange"></div>
+          <div class="colorItem colorGraphite"></div>
+        </div>
+      
+      </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
